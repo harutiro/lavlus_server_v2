@@ -5,10 +5,10 @@ This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/
 
 ## Docker の起動
 
-Docker で Minio と MongoDb を起動します
+Docker で Minio と MongoDb と api-server を起動します
 
 ```sh
-npm run db:start
+docker-compose up -d
 ```
 
 ## Install dependencies
